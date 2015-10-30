@@ -1,0 +1,453 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+        <meta name="viewport" content="width=device-width" />
+          
+         <link rel="icon" type="image/png" href="/assets/img/favicon.ico">
+                 
+        <title>Creative Tim | Tools to build better websites</title>
+        
+        <meta content="The most beautiful freebies, kits and website templates built for the bootstrap framework. A place for designers and developers." name="description" />
+        <meta content="creativetim, creative tim, bootstrap, theme, freebies, bootstrap kit, bootstrap template, free items, beautiful ui, awesome freebies,  css cards,  bootstrap wizard,  bootstrap plugin" name="keywords" />
+        <meta content="Creative Tim - Tools to build better websites" property="og:title" />
+        <meta content="http://www.creative-tim.com/" property="og:url" />
+        <meta content="https://s3.amazonaws.com/creativetim_bucket/mailchimp_tim_white_bg.jpg" property="og:image" />
+        <meta content="The most beautiful  freebies, kits and website templates built for the bootstrap framework. A place for designers and developers." property="og:description" />
+        <meta content="summary" property="twitter:card" />
+        <meta content="http://www.creative-tim.com/" property="twitter:url" />
+        <meta content="Creative Tim - Tools to build better websites" property="twitter:title" />
+        <meta content="The most beautiful  freebies, kits and website templates built for the bootstrap framework. A place for designers and developers." property="twitter:description" />
+        <meta content="https://s3.amazonaws.com/creativetim_bucket/mailchimp_tim_white_bg.jpg" property="twitter:image" />
+        <meta content="/" property="twitter:domain" />
+        <meta content="@CreativeTim" property="twitter:site" />
+        <meta content="@CreativeTim" property="twitter:creator" />
+     
+        <link href="/static/bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="/static/bootstrap-3.3.5-dist/css/rubick_pres.css" rel="stylesheet"/>
+        <!--     Fonts and icons     -->
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
+        <link href="/static/bootstrap-3.3.5-dist/css/pe-icon-7-stroke.css" rel="stylesheet">
+        <link href="/static/bootstrap-3.3.5-dist/css/Rubik-Fonts.css" rel="stylesheet" />
+        
+        <style>
+            .section-header .separator {
+                margin: 0em auto 2em;
+            }
+            .space-50{
+                height: 50px;
+                width: 100%;
+                display: block;
+                content: "";
+            }
+            .section .parallax > img{
+                width: 100%;
+                min-width: 0;
+                min-height: 0;
+            }
+            .pattern-image:after{
+                opacity: .2;
+/*                 background: #111; */
+            }
+            .section-header h1{
+                text-shadow: -2px 2px 30px rgba(0, 0, 0, 0.25), -2px 4px 14px rgba(0, 0, 0, 0.1);
+            }
+            .section-header h5{
+                  text-shadow: 0px 0px 11px rgba(0, 0, 0, 0.3);
+            }
+            .section-header .content{
+                top: 42%;
+            }
+            .section-we-are-1 .title{
+                max-width: 960px;
+            }
+            .card .icon ~ h3{
+                margin-bottom: 10px;
+            }
+            .section-with-hover .project .content{
+                text-align: center;
+            }
+            .section-with-hover .project .over-area{
+                background: rgba(0, 0, 0, .83);
+            }
+            .section-clients-2{
+                padding: 6em 0 1em;
+            }
+            .section-clients-2 .nav-text li {
+                margin: 0 15px 10px 15px;
+            }
+            .section-contact-3 .contact-container .address-container{
+                width: 28%;
+                background-color: #FFFFFF;
+                height: 470px;
+                top: 50px;
+                padding: 20px;
+            }
+            .section-contact-3 .address{
+                margin-top: 40px;
+            }
+            .section-we-made-3 .content{
+                padding: 0 15px;
+                text-align: center;
+            }
+            .section-we-made-3 .over-area .content h3{
+                margin: 5px 0 20px;
+            }
+            .section-we-made-3 .over-area .content p{
+                font-size: .9em;
+                color: #898989;
+            }
+            .section-we-made-3 .over-area .content h5{
+                margin-bottom: 0px;
+                margin-top: 20px;
+            }
+            
+            .btn-black{
+                letter-spacing: 1px;
+                margin-top: 20px;
+            }
+            
+            .copyright a{
+                color: #FFFFFF;
+            }
+            
+            .section-team-2 .team .member p {
+              font-size: 1em;
+              padding: 0 30px;
+            }
+            
+            .card{
+                margin-bottom: 30px;
+            }
+            .section-with-hover .project .over-area.over-area-sm .content p {
+              font-size: .85em;
+            }
+            .section-with-hover .project .over-area.over-area-sm .content h4 {
+              font-size: 1.6em;
+            }
+            .logo{
+                display: block;
+                margin: 0 auto 10px;
+                width: 61px;
+                height: 61px;
+                border-radius: 50%;
+                border: 1px solid #333333;
+                overflow: hidden;
+            }
+            .logo img{
+                width: 100%;
+                height: 100%;
+            }
+            .loading .loading-container p {
+                font-size: 30px;
+                width: 220px;
+                margin: 0 auto;
+                margin-bottom: 30px;
+                height: 35px;
+            }
+            .loading .logo{
+                opacity: 0;
+                transition: all 0.9s;
+                -webkit-transition: all 0.9s;
+                -moz-transition: all 0.9s;
+            }
+            .loading .logo.visible{
+                opacity: 1;
+            }
+            .sharrre .btn{
+                color: #444444;
+                border-color: #444444;
+                font-weight: 400;
+            } 
+            .address .col-md-6{
+                padding-right: 7px;
+                padding-left: 7px;
+            }
+            a.img-class{
+                opacity: 1;
+            }
+            a.img-class:hover{
+                opacity: .9;
+            }
+        </style>
+    </head>
+    <body>
+
+        <nav class="navbar navbar-default navbar-transparent navbar-fixed-top navbar-burger" role="navigation">
+            <!-- if you want to keep the navbar hidden you can add this class to the navbar "navbar-burger"-->
+            <div class="container">
+                <div class="navbar-header">
+                    <button id="menu-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar bar1"></span>
+                    <span class="icon-bar bar2"></span>
+                    <span class="icon-bar bar3"></span>
+                    </button>
+                    <a target="_blank" href="http://www.creative-tim.com?ref=presentation-page" class="navbar-brand">
+                    Movie Recommendation
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" >
+                    <ul class="nav navbar-nav navbar-right navbar-uppercase">
+                        <li class="social-links">
+                            <a href="https://www.facebook.com/CreativeTim">
+                                <i class="fa fa-facebook-square"></i>
+                            </a>
+                            <a href="https://twitter.com/CreativeTim">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                            <a href="https://plus.google.com/+CreativetimPage">
+                                <i class="fa fa-google-plus-square"></i>
+                            </a>
+                            <a href="https://dribbble.com/creativetim">
+                                <i class="fa fa-dribbble"></i>
+                            </a>
+                            
+                        </li>
+                        <li>
+                            <a href="" data-scroll="true" data-id="#whoWeAre"> 
+                            About
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" data-scroll="true" data-id="#workflow"> 
+                            What We Do
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" data-scroll="true" data-id="#projects">
+                            Famous Freebies
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" data-scroll="true" data-id="#uitools">
+                            Premium UI Tools
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" data-scroll="true" data-id="#clients"> 
+                            Testimonials
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" data-scroll="true" data-id="#team"> 
+                            Team
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" data-scroll="true" data-id="#numbers"> 
+                            Numbers
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" data-scroll="true" data-id="#contact"> 
+                            Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+        </nav>
+        <div class="wrapper">
+            <div class="section section-header">
+                <div class="parallax pattern-image">
+                    <img src="https://ununsplash.imgix.net/photo-1427434846691-47fc561d1179?fit=crop&fm=jpg&h=700&q=75&w=1050"/>
+<!--                     <img src="/assets/img/header6.jpg"/> -->
+                    <div class="container">
+                        <div class="content">
+                            <h1>Movie Recommendation</h1>
+                            <div class="separator-container">
+                                <div class="separator line-separator">∎</div>
+                            </div>
+                            <h5>Recommend your personalized favorite movies</h5>
+                        </div>
+                    </div>
+                </div>
+                <a href="" data-scroll="true" data-id="#whoWeAre" class="scroll-arrow hidden-xs hidden-sm">
+                <i class="fa fa-angle-down"></i>
+                </a>
+            </div>
+
+            <div class="section section-we-are-1" id="whoWeAre">
+                <div class="text-area">
+                    <div class="container">
+                        <div class="row">
+                            <div class="title" id="animationTest">
+
+
+                                {% if res %}
+                                <h1> Recommendations </h1>
+                                <div class="separator-container">
+                                    <div class="separator line-separator">∎</div>
+                                </div>
+
+                                <table class="table table-hover table-striped">
+                                <tr>
+                                        <td><b>Rating</b></td>
+                                        <td><b>Name</b></td>
+                                        <td><b>Genre</b></td>
+                                </tr>
+                                    {% for movie in res %}
+                                        <tr>
+                                            <td>{{ movie.rate }} </td>
+                                            <td>{{ movie.name }} </td>
+                                            <td>{{ movie.genre }} </td>
+                                        </tr>
+                                    {% endfor %}
+                                </table>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            <div class="section section-we-are-1" id="whoWeAre2">
+                <div class="text-area">
+                    <div class="container">
+                        <div class="row">
+                            <div class="title" id="animationTest">
+
+
+                            {% if seened_movie %}
+
+                                <hr>
+                                <h1> History rating </h1>
+                                <div class="separator-container">
+                                    <div class="separator line-separator">∎</div>
+                                </div>
+                                <table class="table table-hover table-striped">
+                                <tr>
+                                    <td><b>Rating</b></td>
+                                    <td><b>Name</b></td>
+                                    <td><b>Genre</b></td>
+                                </tr>
+                                {% for movie in seened_movie %}
+                                    <tr>
+                                        <td>{{ movie.rate }} </td>
+                                        <td>{{ movie.name }} </td>
+                                        <td>{{ movie.genre }} </td>
+                                    </tr>
+                                {% endfor %}
+                                </table>
+                            {% endif %}
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <footer class="footer footer-color-black">
+                <div class="container">
+                    <nav class="pull-left">
+                        <ul>
+                            <li>
+                                <a target="_blank" href="#">
+                                Home
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="#">
+                                Contact
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="#">
+                                Blog
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="#">
+                                Sponsorships
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="social-area pull-right">                
+                        <a class="btn btn-social btn-facebook btn-simple" href="#">
+                            <i class="fa fa-facebook-square"></i>
+                        </a>
+                        <a class="btn btn-social btn-twitter btn-simple" href="#">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a class="btn btn-social btn-pinterest btn-simple" href="#">
+                            <i class="fa fa-google-plus-square"></i>
+                        </a>
+                        <a class="btn btn-social btn-pinterest btn-simple" href="#">
+                            <i class="fa fa-dribbble"></i>
+                        </a>
+                    </div>
+                    <div class="copyright">
+                        &copy; 2015 <a target="_blank" href="#"> Creative Tim</a>, page made with <a target="_blank" href="#">Rubik</a>
+                    </div>
+                </div>
+            </footer>
+            
+        </div> <!-- end wrapper -->
+    </body>
+    <!--   core js files    -->
+    <script src="/static/bootstrap-3.3.5-dist/js/jquery-1.11.2.min.js" type="text/javascript"></script>
+    <script src="/static/bootstrap-3.3.5-dist/js/bootstrap.js" type="text/javascript"></script>
+    <!--   file for adding vertical points where we activate the elements animation   -->
+    <script type="text/javascript" src="/static/bootstrap-3.3.5-dist/js/jquery.waypoints.min.js"></script>
+    <!--  js library for devices recognition -->
+    <script type="text/javascript" src="/static/bootstrap-3.3.5-dist/js/modernizr.js"></script>
+    <!--  script for google maps   -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <!--   file where we handle all the script from the Rubik page   -->
+    <script type="text/javascript" src="/static/bootstrap-3.3.5-dist/js/rubick_pres.js"></script>
+    
+    <script type="text/javascript" src="/static/bootstrap-3.3.5-dist/js/jquery.sharrre.js"></script>
+    
+    <script type="text/javascript">   
+        $('#twitter').sharrre({
+          share: {
+            twitter: true
+          },
+          enableHover: false,
+          enableTracking: true,
+          buttons: { twitter: {via: 'CreativeTim'}},
+          click: function(api, options){
+            api.simulateClick();
+            api.openPopup('twitter');
+          },
+          template: '<button class="btn btn-lg btn-contact btn-block"><i class="fa fa-twitter"></i> Twitter &middot; {total}</button>'
+        });
+        
+        $('#facebook').sharrre({
+          share: {
+            facebook: true
+          },
+          enableHover: false,
+          enableTracking: true,
+          click: function(api, options){
+            api.simulateClick();
+            api.openPopup('facebook');
+          },
+          template: '<button class="btn btn-lg btn-contact btn-block"><i class="fa fa-facebook-square"></i> Facebook &middot; {total}</button>'
+        });        
+        
+    </script>
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    
+      ga('create', 'UA-46172202-5', 'auto');
+      ga('send', 'pageview');
+    
+    </script>
+
+</html>
+
+
+
